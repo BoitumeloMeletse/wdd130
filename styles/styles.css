@@ -22,12 +22,29 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Aside */
+aside {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+
+
 body, h1, h2, p, nav, footer, aside, main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 /* Paragraphs */
 p {
@@ -46,3 +63,5 @@ footer {
   font-size: 0.9rem;
   color: #555;
 }
+
+
