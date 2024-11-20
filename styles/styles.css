@@ -10,8 +10,33 @@ nav a {
   padding: 20px;
 }
 
+/* Apply a consistent box-sizing and reset margins and paddings */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+
 h1 {
   color: darkblue;
+}
+
+h2 {
+  color: black; 
 }
 
 img {
@@ -20,11 +45,6 @@ img {
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-}
-
-aside img {
-  width: 200px;
-  height: auto;
 }
 
 /* Aside */
@@ -38,12 +58,9 @@ aside {
   text-align: center;
 }
 
-
-
-body, h1, h2, p, nav, footer, aside, main {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+aside img {
+  width: 200px;
+  height: auto;
 }
 
 /* Paragraphs */
@@ -63,5 +80,3 @@ footer {
   font-size: 0.9rem;
   color: #555;
 }
-
-
