@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #2c2c2c; /* Dark gray for text */
+    background-color: #fdfdfd; /* Light cream background */
+  }
+  
+  header {
+    background-color: #1e2a38; /* Deep navy blue */
+    padding: 1rem 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  header nav a {
+    color: #e8e8e8; /* Light gray text */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a.cta {
+    background-color: #f4a261; /* Muted orange */
+    color: #1e2a38; /* Deep navy for contrast */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #edf6f9; /* Soft blue-gray */
+  }
+  
+  .hero h1 {
+    font-family: 'Georgia', serif;
+    color: #264653; /* Rich greenish-blue */
+  }
+  
+  .hero-btn {
+    background-color: #2a9d8f; /* Elegant teal */
+    color: #ffffff; /* White text for contrast */
+    padding: 1rem 2rem;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adventures {
+    padding: 2rem;
+    background-color: #fefae0; /* Soft beige */
+    text-align: center;
+  }
+  
+  .adventure-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .adventure-card {
+    background: #ffffff; /* Pure white */
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adventure-card h3 {
+    color: #264653; /* Rich greenish-blue */
+  }
+  
+  .adventure-card p {
+    color: #606060; /* Medium gray */
+  }
+  
+  .testimonials {
+    padding: 2rem;
+    background-color: #edf6f9; /* Soft blue-gray */
+    text-align: center;
+  }
+  
+  .testimonial-carousel blockquote {
+    margin: 0 auto;
+    max-width: 500px;
+    color: #264653; /* Rich greenish-blue */
+    font-style: italic;
+  }
+  
+  .gallery-preview {
+    padding: 2rem;
+    background-color: #1e2a38; /* Deep navy blue */
+    color: #f4f4f4; /* Off-white for contrast */
+  }
+  
+  .gallery-grid img {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #2c2c2c; /* Dark gray */
+    color: #e8e8e8; /* Light gray text */
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 3px solid #f4a261; /* Muted orange accent */
+  }
+  
