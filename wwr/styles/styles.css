@@ -1,4 +1,4 @@
-/* General Styles */
+/* Styles */
 :root {
   --dark-gray: #505033;
   --light-gray: #e8e8e8;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -20,6 +20,7 @@ a {
   text-decoration: none;
 }
 
+/* Header */
 header {
   background-color: var(--dark-gray);
   padding: 1rem 0;
@@ -38,12 +39,14 @@ header nav {
 }
 
 header nav a {
+  font-family: 'Roboto', sans-serif;
   color: var(--light-gray);
   text-decoration: none;
   font-weight: bold;
 }
 
 header nav a.cta {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--muted-orange);
   color: var(--dark-gray);
   padding: 0.5rem 1rem;
@@ -64,7 +67,7 @@ header nav a.cta {
 }
 
 .hero h1 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif; 
   color: var(--rich-green-blue);
   position: absolute;
   top: 30%;
@@ -91,23 +94,28 @@ header nav a.cta {
   margin-left: 10px;
 }
 
+.hero article p {
+  font-family: 'Roboto', sans-serif; /* Font for hero paragraph */
+}
+
 /* Sections */
 main {
   padding: 2rem;
 }
 
 section h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif; 
   color: var(--rich-green-blue);
 }
 
 section p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
   color: #606060;
 }
 
 /* Footer */
 footer {
+  font-family: 'Roboto', sans-serif; 
   background-color: var(--dark-gray);
   color: var(--light-gray);
   text-align: center;
@@ -121,6 +129,7 @@ footer nav {
 }
 
 footer nav a {
+  font-family: 'Roboto', sans-serif;
   color: var(--light-gray);
   text-decoration: none;
 }
