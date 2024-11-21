@@ -1,4 +1,4 @@
-/* Styles */
+
 :root {
   --dark-gray: #505033;
   --light-gray: #e8e8e8;
@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-/* Header */
+
 header {
   background-color: var(--dark-gray);
   padding: 1rem 0;
@@ -53,7 +53,7 @@ header nav a.cta {
   border-radius: 5px;
 }
 
-/* Hero Section */
+
 .hero {
   text-align: center;
   padding: 2rem 1rem;
@@ -95,10 +95,10 @@ header nav a.cta {
 }
 
 .hero article p {
-  font-family: 'Roboto', sans-serif; /* Font for hero paragraph */
+  font-family: 'Roboto', sans-serif; 
 }
 
-/* Sections */
+
 main {
   padding: 2rem;
 }
@@ -113,7 +113,7 @@ section p {
   color: #606060;
 }
 
-/* Footer */
+
 footer {
   font-family: 'Roboto', sans-serif; 
   background-color: var(--dark-gray);
