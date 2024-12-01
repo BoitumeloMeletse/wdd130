@@ -1,0 +1,148 @@
+/* Color scheme */
+:root {
+  --primary-color: #FF5733;  /* Bold Orange-Red */
+  --secondary-color: #1F3A4C; /* Deep Navy Blue */
+  --accent1-color: #F9A825;  /* Warm Gold */
+  --accent2-color: #FFFFFF;  /* Clean White */
+}
+
+/* Adjusted "Our History" positioning */
+#history {
+  position: relative;
+  top: -50px;  /* Moves it slightly higher */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#history h2 {
+  text-align: center;
+  position: absolute;
+  color: var(--accent2-color);
+}
+
+.hero {
+  height: 225vh;
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  position: absolute;
+  color: var(--accent2-color);
+  font-size: 4rem;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Header and Navigation */
+header {
+  background-color: var(--primary-color);
+  padding: 1.5em 0;
+}
+
+header h1 {
+  color: var(--accent2-color);
+}
+
+header a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--accent1-color);
+}
+
+/* Section styling */
+section {
+  background-color: var(--secondary-color);
+  padding: 1.5em 0;
+}
+
+section p, section a {
+  color: var(--accent2-color);
+}
+
+section h2 {
+  color: var(--accent2-color);
+}
+
+/* Links and buttons */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--accent1-color);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+footer .social-media a img {
+  margin: 0 10px;
+  width: 30px;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
+  margin-top: 1em;
+  color: var(--accent2-color);
+}
+
+/* Adjusted adventure section for better layout */
+#adventures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#adventures figcaption {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#adventures img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 0 1em;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  #history {
+    flex-direction: column;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+}
