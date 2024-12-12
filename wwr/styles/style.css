@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2b2d42;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+nav .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav .nav-list li a.active {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #2b2d42;
+}
+
+#trips {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #edf2f4;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.trip-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+footer {
+    background-color: #2b2d42;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.social-icon {
+    max-height: 40px;
+    cursor: pointer;
+}
+
+a {
+    color: #8d99ae;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

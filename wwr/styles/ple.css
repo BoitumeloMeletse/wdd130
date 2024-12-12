@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark gray header background */
+}
+
+.logo {
+    width: 150px; /* Adjust the logo size */
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc; /* Light gray hover text color */
+}
+
+.hero1 {
+    background-image: linear-gradient(to bottom, #333, #F5F5F5); /* Gradient background */
+    background-size: auto 100%;
+    background-position: center bottom;
+}
+
+.hero1 h1 {
+    font-size: 48px; /* Large font size */
+    font-weight: bold;
+    color: #fff; /* White text color */
+}
+
+.signup-container {
+    max-width: 400px; /* Adjust the width */
+    margin: auto;
+}
+
+.signup-container h2 {
+    font-size: 24px; /* Medium font size */
+    font-weight: bold;
+}
+
+.signup-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signup-container input[type="text"], .signup-container input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-container button[type="submit"] {
+    background-color: #333; /* Dark gray button background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+}
+
+.call-to-action h2 {
+    font-size: 24px; /* Medium font size */
+}
+
+.call-to-action p {
+    font-size: 18px; /* Small font size */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Unequal grid columns */
+    gap: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: -10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.grid-item p {
+    font-size: 16px;
+    color: #777;
+    text-align: right;
+}
+
+.grid-item:nth-child(2) {
+    background-color: #f0f0f0;
+}
+
+.grid-item:nth-child(3) {
+    background-image: url('path/to/image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
