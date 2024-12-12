@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333; /* Dark gray header background */
+    background-color: #0077cc; /* Dark gray header background */
   }
   
   .logo {
@@ -39,19 +39,26 @@ body {
   }
   
   nav a:hover {
-    color: #ccc; /* Light gray hover text color */
+    color: #000000; /* Light gray hover text color */
+  }
+  
+  .hero img {
+    width: 1000%;
+    height: auto;
+    display: block;
   }
   
   .hero1 {
-    background-image: linear-gradient(to bottom, #333, #F5F5F5); /* Gradient background */
+    background-image: linear-gradient(to bottom, #0077cc, #F5F5F5); /* Gradient background */
     background-size: auto 100%;
     background-position: center bottom;
+    
   }
   
   .hero1 h1 {
     font-size: 48px; /* Large font size */
     font-weight: bold;
-    color: #fff; /* White text color */
+    color: #000000; /* White text color */
   }
   
   .signup-container {
